@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca8c5882-04a9-4447-b27f-5743ffd80d66" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="a2" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/word2vec.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1VlWkeWTyaFw9QTdqZVhdvJYdmh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager" selected="Python.sgd">
+    <configuration name="sgd" type="PythonConfigurationType" factoryName="Python">
+      <module name="a2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/opt/anaconda3/envs/a2/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="word2vec" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="a2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/opt/anaconda3/envs/a2/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/word2vec.py" />
+      <option name="PARAMETERS" value="1" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.word2vec" />
+      <item itemvalue="Python.sgd" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca8c5882-04a9-4447-b27f-5743ffd80d66" name="Default Changelist" comment="" />
+      <created>1577828305318</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577828305318</updated>
+      <workItem from="1577828306427" duration="2217000" />
+      <workItem from="1577951009417" duration="26693000" />
+      <workItem from="1578489069189" duration="3064000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="808" y="63" key="#Inspections" timestamp="1578437922784">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="808" y="63" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1578437922784" />
+    <state x="427" y="162" width="1071" height="841" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578491822226">
+      <screen x="0" y="23" width="1920" height="992" />
+    </state>
+    <state x="427" y="151" width="1071" height="841" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578273343379" />
+    <state x="427" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.992@0.23.1920.992" timestamp="1578491822226" />
+    <state width="1868" height="236" key="GridCell.Tab.0.bottom" timestamp="1578536623573">
+      <screen x="0" y="23" width="1920" height="992" />
+    </state>
+    <state width="1868" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578458652898" />
+    <state width="1868" height="236" key="GridCell.Tab.0.bottom/0.23.1920.992@0.23.1920.992" timestamp="1578536623573" />
+    <state width="1868" height="236" key="GridCell.Tab.0.center" timestamp="1578536623572">
+      <screen x="0" y="23" width="1920" height="992" />
+    </state>
+    <state width="1868" height="330" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578458652897" />
+    <state width="1868" height="236" key="GridCell.Tab.0.center/0.23.1920.992@0.23.1920.992" timestamp="1578536623572" />
+    <state width="1868" height="236" key="GridCell.Tab.0.left" timestamp="1578536623572">
+      <screen x="0" y="23" width="1920" height="992" />
+    </state>
+    <state width="1868" height="330" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578458652896" />
+    <state width="1868" height="236" key="GridCell.Tab.0.left/0.23.1920.992@0.23.1920.992" timestamp="1578536623572" />
+    <state width="1868" height="236" key="GridCell.Tab.0.right" timestamp="1578536623573">
+      <screen x="0" y="23" width="1920" height="992" />
+    </state>
+    <state width="1868" height="330" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578458652897" />
+    <state width="1868" height="236" key="GridCell.Tab.0.right/0.23.1920.992@0.23.1920.992" timestamp="1578536623573" />
+    <state width="1868" height="346" key="GridCell.Tab.1.bottom" timestamp="1578524545027">
+      <screen x="0" y="23" width="1920" height="992" />
+    </state>
+    <state width="1868" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578458652444" />
+    <state width="1868" height="346" key="GridCell.Tab.1.bottom/0.23.1920.992@0.23.1920.992" timestamp="1578524545027" />
+    <state width="1868" height="346" key="GridCell.Tab.1.center" timestamp="1578524545026">
+      <screen x="0" y="23" width="1920" height="992" />
+    </state>
+    <state width="1868" height="330" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578458652443" />
+    <state width="1868" height="346" key="GridCell.Tab.1.center/0.23.1920.992@0.23.1920.992" timestamp="1578524545026" />
+    <state width="1868" height="346" key="GridCell.Tab.1.left" timestamp="1578524545026">
+      <screen x="0" y="23" width="1920" height="992" />
+    </state>
+    <state width="1868" height="330" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578458652442" />
+    <state width="1868" height="346" key="GridCell.Tab.1.left/0.23.1920.992@0.23.1920.992" timestamp="1578524545026" />
+    <state width="1868" height="346" key="GridCell.Tab.1.right" timestamp="1578524545026">
+      <screen x="0" y="23" width="1920" height="992" />
+    </state>
+    <state width="1868" height="330" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578458652443" />
+    <state width="1868" height="346" key="GridCell.Tab.1.right/0.23.1920.992@0.23.1920.992" timestamp="1578524545026" />
+    <state x="360" y="91" key="SettingsEditor" timestamp="1577829323999">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="360" y="91" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1577829323999" />
+    <state x="541" y="48" width="838" height="1032" key="search.everywhere.popup" timestamp="1577828340947">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="541" y="48" width="838" height="1032" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1577828340947" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/a2$sgd.coverage" NAME="sgd Coverage Results" MODIFIED="1578536623565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/a2$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1578272946015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/a2$word2vec.coverage" NAME="word2vec Coverage Results" MODIFIED="1578536555942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/a2$11.coverage" NAME="word2vec Coverage Results" MODIFIED="1578467917320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
