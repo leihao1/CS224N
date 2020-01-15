@@ -52,7 +52,7 @@ class PartialParse(object):
         ###         1. Shift
         ###         2. Left Arc
         ###         3. Right Arc
-
+        # print(self.stack)
         if transition == 'S':
             self.stack.append(self.buffer.pop(0))
         elif transition == 'LA':
@@ -112,6 +112,17 @@ def minibatch_parse(sentences, model, batch_size):
     ###             to remove objects from the `unfinished_parses` list. This will free the underlying memory that
     ###             is being accessed by `partial_parses` and may cause your code to crash.
 
+    partial_parses = [PartialParse(sent) for sent in sentences]
+    unfinished_parses = partial_parses[:]
+    while len(unfinished_parses) != 0:
+        batch_parse = unfinished_parses[:batch_size]
+        transitions = model.predict(batch_parse)
+        for parse, tran in zip(batch_parse,transitions):
+            parse.parse_step(tran)
+            if len(parse.stack) == 1 and len(parse.buffer) == 0:
+                unfinished_parses.remove(parse)
+    for parse in partial_parses:
+        dependencies.append(parse.dependencies)
 
     ### END YOUR CODE
 
