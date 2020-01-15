@@ -88,7 +88,8 @@ def train_for_epoch(parser, train_data, dev_data, optimizer, loss_func, batch_si
             loss = 0. # store loss for this batch here
             train_x = torch.from_numpy(train_x).long()
             train_y = torch.from_numpy(train_y.nonzero()[1]).long()
-
+            if torch.cuda.is_available():
+                train_x, train_y= train_x.cuda(), train_y.cuda()
             ### YOUR CODE HERE (~5-10 lines)
             ### TODO:
             ###      1) Run train_x forward through model to produce `logits`
@@ -121,8 +122,8 @@ def train_for_epoch(parser, train_data, dev_data, optimizer, loss_func, batch_si
 
 if __name__ == "__main__":
     # Note: Set debug to False, when training on entire corpus
-    debug = True
-    # debug = False
+    # debug = True
+    debug = False
 
     assert(torch.__version__ == "1.0.0"),  "Please install torch version 1.0.0"
 
@@ -133,6 +134,9 @@ if __name__ == "__main__":
 
     start = time.time()
     model = ParserModel(embeddings)
+    if torch.cuda.is_available():
+        moedl = model.cuda()
+        print('Load model into GPU')
     parser.model = model
     print("took {:.2f} seconds\n".format(time.time() - start))
 

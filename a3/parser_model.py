@@ -48,7 +48,9 @@ class ParserModel(nn.Module):
         self.hidden_size = hidden_size
         self.pretrained_embeddings = nn.Embedding(embeddings.shape[0], self.embed_size)
         self.pretrained_embeddings.weight = nn.Parameter(torch.tensor(embeddings))
-
+        if torch.cuda.is_available():
+            self.pretrained_embeddings = self.pretrained_embeddings.cuda()
+            print('Load embeddings into GPU')
         ### YOUR CODE HERE (~5 Lines)
         ### TODO:
         ###     1) Construct `self.embed_to_hidden` linear layer, initializing the weight matrix
@@ -149,7 +151,8 @@ class ParserModel(nn.Module):
         ###
         ### Please see the following docs for support:
         ###     ReLU: https://pytorch.org/docs/stable/nn.html?highlight=relu#torch.nn.functional.relu
-
+        if torch.cuda.is_available():
+            t = t.cuda()
         embeddings = self.embedding_lookup(t)
         h1 = self.embed_to_hidden(embeddings)
         a1 = torch.nn.functional.relu(h1)
